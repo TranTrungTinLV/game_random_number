@@ -17,9 +17,10 @@ let score = 20;
 document.querySelector('.check').addEventListener('click', function () {
 
     const guess = document.querySelector('.guess').value;
+    const message = document.querySelector('.message');
     if (!guess) {
-        const message = document.querySelector('.message').textContent = "No number";
-        document.querySelector('.message').classList.add('red-text')
+        message.textContent = "No number";
+        message.style.color = "red"
         // document.querySelector('body').style.opacity = "0.1";
 
         document.querySelector('body').classList.add('haha');
