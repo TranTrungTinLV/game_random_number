@@ -221,8 +221,12 @@ h1 {
 
     .guess,
     .check {
-        width: 70%;
+        width: 30%;
+        height: 30%;
+        padding-top: 10px;
         margin: 0 auto;
+        font-size: 2rem;
+        justify-content: center;
     }
 
     .btn.again {
