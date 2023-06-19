@@ -63,4 +63,6 @@ document.querySelector('.again').addEventListener('click', function () {
     document.querySelector('body').style.backgroundColor = '#333';
     document.querySelector('.guess').value = '';
     document.querySelector('body').classList.remove('haha');
+    document.querySelector('.message').textContent = "Start Guessing...";
+    document.querySelector('.message').style.color = "#eee";
 })
